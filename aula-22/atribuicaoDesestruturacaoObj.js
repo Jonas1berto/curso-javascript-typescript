@@ -15,3 +15,6 @@ const {
   endereco: { rua, numero }
 } = pessoa
 console.log(nome, sobrenome, rua, numero)
+
+const { endereco, ...resto } = pessoa
+console.log(resto)
