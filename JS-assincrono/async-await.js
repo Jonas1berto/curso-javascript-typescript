@@ -1,4 +1,4 @@
-// Utilizando async e await
+// Utilizando async e await.
 function rand(min, max) {
   min *= 1000
   max *= 1000
