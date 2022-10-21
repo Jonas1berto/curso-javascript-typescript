@@ -1,3 +1,4 @@
+// fetch está buscando a pasta 'pessoas.json'
 fetch('pessoas.json')
   .then(resposta => resposta.json())
   .then(json => carregaElementosNaPagina(json));
