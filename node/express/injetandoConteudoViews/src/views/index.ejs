@@ -1,0 +1,25 @@
+<%- include('includes/head')%>
+<body>
+  <section class="container">
+    <h1>
+      <%# buscando titulo com ejs %> <br>
+      <%= titulo %>
+    </h1>
+
+    <p>
+      <%# Utilizando o forEach pelo ejs.%>
+      <% numeros.forEach(num => { %>
+        <%= num %><br>
+     <% }) %>
+    </p>
+    <form action="" method="post">
+      <label>Cliente</label>
+      <input type="text" name="cliente">
+      <button>submit</button>
+    </form>
+  </section>
+
+  <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>
